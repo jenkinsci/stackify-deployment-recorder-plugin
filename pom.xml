@@ -14,7 +14,7 @@
 
     <name>Stackify Deployment Recorder</name>
 	<description>Record Deployments in Stackify Retrace</description>
-	<url>https://github.com/stackify/stackify-deployment-recorder</url>
+	<url>https://wiki.jenkins.io/display/JENKINS/Stackify+Deployment+Recorder+Plugin</url>
 	
 	<licenses>
 		<license>
