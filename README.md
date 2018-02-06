@@ -1,8 +1,8 @@
 # Stackify Deployment Recorder
 
 [![Jenkins Plugins](https://img.shields.io/jenkins/plugin/v/stackify-deployment-recorder.svg)](https://wiki.jenkins.io/)
-[![Build Status](https://travis-ci.org/stackify/stackify-deployment-recorder.svg?branch=master)](https://travis-ci.org/stackify/stackify-deployment-recorder)
-[![Coverage Status](https://coveralls.io/repos/github/stackify/stackify-deployment-recorder/badge.svg?branch=master)](https://coveralls.io/github/stackify/stackify-deployment-recorder?branch=master)
+[![Build Status](https://travis-ci.org/jenkinsci/stackify-deployment-recorder-plugin.svg?branch=master)](https://travis-ci.org/jenkinsci/stackify-deployment-recorder-plugin)
+[![Coverage Status](https://coveralls.io/repos/github/jenkinsci/stackify-deployment-recorder-plugin/badge.svg?branch=master)](https://coveralls.io/github/jenkinsci/stackify-deployment-recorder-plugin?branch=master)
 
 Jenkins Plugin to Record Deployments in Stackify Retrace
 

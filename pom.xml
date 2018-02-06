@@ -8,7 +8,7 @@
         <version>2.16</version>
     </parent>
     
-    <artifactId>stackify-deployment-recorder-plugin</artifactId>
+    <artifactId>stackify-deployment-recorder</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
