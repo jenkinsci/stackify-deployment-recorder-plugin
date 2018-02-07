@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-    Stackify Retrace Deployment Plugin
+    Record deployments in Stackify Retrace
 </div>

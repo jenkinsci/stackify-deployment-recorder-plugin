@@ -16,7 +16,11 @@ http://www.stackify.com/sign-up/
 
 ### Installation
 
-TODO
+Manage Jenkins / Manage Plugins / Available
+
+Search for 'Stackify' and install the 'Stackify Deployment Recorder' plugin. 
+
+![picture](images/install.png)
 
 ### Usage
 
