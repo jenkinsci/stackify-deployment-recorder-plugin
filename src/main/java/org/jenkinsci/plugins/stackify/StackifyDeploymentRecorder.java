@@ -7,11 +7,12 @@ package org.jenkinsci.plugins.stackify;
 import java.io.IOException;
 import java.util.logging.Level;
 
-import org.jenkinsci.plugins.stackify.data.ApiDataService;
-import org.jenkinsci.plugins.stackify.data.AppEnv;
-import org.jenkinsci.plugins.stackify.data.ServiceLocator;
 import org.jenkinsci.plugins.stackify.util.AppEnvs;
 import org.kohsuke.stapler.DataBoundConstructor;
+
+import com.stackify.deployment.ApiDataService;
+import com.stackify.deployment.AppEnv;
+import com.stackify.deployment.ServiceLocator;
 
 import hudson.EnvVars;
 import hudson.Extension;

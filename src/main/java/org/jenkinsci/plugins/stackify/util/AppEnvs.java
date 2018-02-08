@@ -6,12 +6,11 @@ package org.jenkinsci.plugins.stackify.util;
 
 import java.io.IOException;
 
-import org.jenkinsci.plugins.stackify.data.AppEnv;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.stackify.deployment.AppEnv;
 
 import lombok.experimental.UtilityClass;
 

@@ -7,9 +7,6 @@ package org.jenkinsci.plugins.stackify;
 import java.io.IOException;
 import java.util.Collections;
 
-import org.jenkinsci.plugins.stackify.data.ApiDataService;
-import org.jenkinsci.plugins.stackify.data.AppEnv;
-import org.jenkinsci.plugins.stackify.data.ServiceLocator;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,6 +14,10 @@ import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+
+import com.stackify.deployment.ApiDataService;
+import com.stackify.deployment.AppEnv;
+import com.stackify.deployment.ServiceLocator;
 
 import hudson.model.Item;
 import hudson.model.Job;

@@ -8,15 +8,16 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
 
-import org.jenkinsci.plugins.stackify.data.ApiDataService;
-import org.jenkinsci.plugins.stackify.data.AppEnv;
-import org.jenkinsci.plugins.stackify.data.ServiceLocator;
 import org.jenkinsci.plugins.stackify.util.Jobs;
 import org.jenkinsci.plugins.stackify.util.ListBoxModels;
 import org.jenkinsci.plugins.stackify.util.Strings;
 import org.kohsuke.stapler.AncestorInPath;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
+
+import com.stackify.deployment.ApiDataService;
+import com.stackify.deployment.AppEnv;
+import com.stackify.deployment.ServiceLocator;
 
 import hudson.Extension;
 import hudson.model.AbstractDescribableImpl;

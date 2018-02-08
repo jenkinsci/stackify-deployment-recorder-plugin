@@ -7,7 +7,7 @@ package org.jenkinsci.plugins.stackify.util;
 import java.util.List;
 import java.util.logging.Level;
 
-import org.jenkinsci.plugins.stackify.data.AppEnv;
+import com.stackify.deployment.AppEnv;
 
 import hudson.util.ListBoxModel;
 import lombok.experimental.UtilityClass;

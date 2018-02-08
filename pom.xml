@@ -27,8 +27,8 @@
     	<connection>scm:git:git://github.com/jenkinsci/stackify-deployment-recorder-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/stackify-deployment-recorder-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/stackify-deployment-recorder-plugin</url>
-      <tag>HEAD</tag>
-  </scm>
+      	<tag>HEAD</tag>
+  	</scm>
 
     <organization>
         <name>Stackify, LLC</name>
@@ -57,20 +57,6 @@
     </pluginRepositories>
 
     <dependencies>
-    
-        <!-- Apache HTTP Client -->
-        
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.4</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpcore</artifactId>
-            <version>4.4.8</version>
-        </dependency>
         
         <!-- Jackson -->
         
@@ -79,18 +65,28 @@
             <artifactId>jackson-core</artifactId>
             <version>2.9.3</version>
         </dependency>
-        
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <version>2.9.3</version>
-        </dependency>
-        
+                
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.9.3</version>
         </dependency>
+        
+        <!-- SLF4J to java.util.logging -->
+    
+    	<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.7.25</version>
+    	</dependency>
+        
+        <!-- Stackify Deployment Common -->
+    
+    	<dependency>
+            <groupId>com.stackify</groupId>
+            <artifactId>stackify-deployment-common</artifactId>
+            <version>1.0.0</version>
+    	</dependency>
         
         <!-- Lombok (provided) -->
 

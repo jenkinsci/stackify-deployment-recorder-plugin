@@ -6,9 +6,10 @@ package org.jenkinsci.plugins.stackify.util;
 
 import java.io.IOException;
 
-import org.jenkinsci.plugins.stackify.data.AppEnv;
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.stackify.deployment.AppEnv;
 
 /**
  * AppEnvs JUnit Test
