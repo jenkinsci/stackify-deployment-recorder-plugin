@@ -55,6 +55,7 @@ Manage Jenkins / System Log / Add new log recorder
 Name: Stackify
 
 Logger: com.stackify
+
 Logger: org.jenkinsci.plugins.stackify
 
 ![picture](images/systemlogrecorder.png)
