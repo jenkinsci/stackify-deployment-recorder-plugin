@@ -1,6 +1,6 @@
 # Stackify Deployment Recorder
 
-[![Jenkins Plugins](https://img.shields.io/jenkins/plugin/v/stackify-deployment-recorder.svg)](https://wiki.jenkins.io/display/JENKINS/Stackify+Deployment+Recorder+Plugin)
+[![Jenkins Plugins](https://img.shields.io/jenkins/plugin/v/stackify-deployment-recorder.svg)](https://plugins.jenkins.io/stackify-deployment-recorder)
 [![Build Status](https://travis-ci.org/jenkinsci/stackify-deployment-recorder-plugin.svg?branch=master)](https://travis-ci.org/jenkinsci/stackify-deployment-recorder-plugin)
 [![Coverage Status](https://coveralls.io/repos/github/jenkinsci/stackify-deployment-recorder-plugin/badge.svg?branch=master)](https://coveralls.io/github/jenkinsci/stackify-deployment-recorder-plugin?branch=master)
 
