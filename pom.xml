@@ -9,7 +9,7 @@
     </parent>
     
     <artifactId>stackify-deployment-recorder</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>Stackify Deployment Recorder</name>
@@ -27,7 +27,7 @@
     	<connection>scm:git:git://github.com/jenkinsci/stackify-deployment-recorder-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/stackify-deployment-recorder-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/stackify-deployment-recorder-plugin</url>
-      	<tag>stackify-deployment-recorder-1.1.0</tag>
+      	<tag>HEAD</tag>
   	</scm>
 
     <organization>
